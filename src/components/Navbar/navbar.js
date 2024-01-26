@@ -1,5 +1,4 @@
 import biblioteca from "./assets/biblioteca.webp"
-
 const navbar = () => {
     return (
         <navbar className="nav">
