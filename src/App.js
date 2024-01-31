@@ -1,13 +1,23 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar/navbar"
-import Usuario from "./components/Usuario/Usuario"
+
 
 
 
 function App(){
+
     return (
         <div>
+            <BrowserRouter> 
             <Navbar/>
-            <Usuario/>
+                <Routes>
+                    <Route path='/'/>
+                     
+                
+                </Routes>
+            </BrowserRouter>
+            
+         
         </div>
     )
 }
