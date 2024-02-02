@@ -11,7 +11,7 @@ function App(){
             <BrowserRouter> 
             <Navbar/>
                 <Routes>
-                    <Route path='/'/>
+                  
                      
                 
                 </Routes>

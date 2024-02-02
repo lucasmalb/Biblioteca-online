@@ -2,7 +2,7 @@ import logo from "./Assets/logo.svg"
 const Usuario = () =>{
     return(
         <div>
-        <button><img src={logo} alt=" user-logo"/></button>
+       <img src={logo} alt=" user-logo" className="Usuario"/>
         </div>
     )
    

@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 
 }
 
-.div-input{
-    width: 160px;
+.div-input input{
+    width: 300px;
+    border-radius: 20px;
 }
 
 
@@ -14,24 +16,34 @@
     width: 78px;
     height: 78px;
 }
+.button-nav {
+    display: flex;
+   
+}
+
 .button-nav button{
     margin-inline: 5px;
     width: 90px;
     height: 60px;
     border-radius: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
-.button-nav p{
-    padding: 5px;
-}
 
-.INICIAR{
-    width:200;
+
+.button-nav .iniciar{
+    width:120px !important;
+    text-align: center;
+    cursor: pointer;
+    margin: 2px;
 }
 
 .Usuario {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+   
+    cursor: pointer;
+    margin: 15px;    
+    
 
 }
