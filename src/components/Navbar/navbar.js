@@ -1,6 +1,6 @@
 import biblioteca from "./assets/biblioteca.webp";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./Navbar.css";
 import Usuario from "../Usuario/Usuario";
 
 const Navbar = () => {
@@ -22,9 +22,9 @@ const Navbar = () => {
           <button className="iniciar">
             <p>Iniciar Sesión</p>
           </button>
-          <Usuario className="usuario"/>
+          <Usuario className="usuario" />
         </div>
-        
+
       </div>
     </navbar>
   );
