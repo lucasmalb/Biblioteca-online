@@ -1,0 +1,22 @@
+.title-slide {
+   
+    background-color: rgb(255, 206, 116);
+  
+
+}
+
+.title-slide button{
+    border: black 2px solid;
+    border-radius: 50%;
+    background-color: rgb(247, 246, 243);
+    animation: scroll 0,5s linear infinite;
+}
+
+.title-slide button p {
+    padding-top: 5%;
+    color: black;
+    text-align: center;
+    
+   
+}
+

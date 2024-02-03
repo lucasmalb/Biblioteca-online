@@ -1,9 +1,9 @@
 import biblioteca from "./assets/biblioteca.webp";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Nav.css";
 import Usuario from "../Usuario/Usuario";
 
-const Navbar = () => {
+const Nav = () => {
   return (
     <navbar className="nav">
       <div className="div-contenedor">
@@ -30,4 +30,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;

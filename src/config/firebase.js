@@ -1,13 +1,13 @@
 import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore'
 const firebaseConfig = {
-  apiKey: "AIzaSyBsZBaI5oUKpyx15HqSyAY8cXdn1HHOAts",
-  authDomain: "biblioteca-virtual-642c6.firebaseapp.com",
-  projectId: "biblioteca-virtual-642c6",
-  storageBucket: "biblioteca-virtual-642c6.appspot.com",
-  messagingSenderId: "443575357250",
-  appId: "1:443575357250:web:563dfdde8c923299a742db",
-  measurementId: "G-C71KVRBTE6"
+  apiKey: "AIzaSyCraSjZ8p8Wx3l8fh9KvQnMafK4w5jmGBQ",
+  authDomain: "biblioteca-virtual-4cda1.firebaseapp.com",
+  projectId: "biblioteca-virtual-4cda1",
+  storageBucket: "biblioteca-virtual-4cda1.appspot.com",
+  messagingSenderId: "765526617492",
+  appId: "1:765526617492:web:6ff261990f10e0ff7eb381",
+  measurementId: "G-F5TM3NB157"
 };
 
 
